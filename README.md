@@ -17,7 +17,7 @@ Create a storage account resource in Azure:
 5. Get the credentials for the new storage account from the Azure portal
 
 Development:
-1. Set the environment variable **AZ204_STORAGE_CONNECTIONSTRING** to your connection string in a terminal window for this modified version: <code>$env:AZ204_STORAGE_CONNECTIONSTRING="\<myConnectionString\>"</code>
+1. Set the environment variable **AZ204_STORAGE_CONNECTIONSTRING** to credentials from the previous section in a terminal window for this modified version to set the connection string: <code>$env:AZ204_STORAGE_CONNECTIONSTRING="\<myConnectionString\>"</code>
 1. Prepare a .NET project: <code>dotnet new console -n az204-blob</code>
 1. Change directory to **az204-blob** and build: <code>cd az204-blob && dotnet build</code>
 1. Create a data folder for uploading and downloading to the storage account: <code>mkdir data</code>
