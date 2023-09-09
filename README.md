@@ -22,3 +22,12 @@ See https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/4
 11. Create the **Program.cs** file according to the MS Learn, or GitHub Copilot to follow along.
 12. Create a .gitignore file by running <code>dotnet new gitignore</code> in the working folder
 13. Publish to GitHub
+
+## Running the Application
+Run the console application by first building it from the application folder: <code>dotnet build && dotnet run</code>. Don't forget to open storage in the portal and set any RBAC controls to Reader to view the application as it progresses through:
+- creating a container
+- adding a file to the storage container
+- downloading and renaming the file from the container
+- cleanup of local files and container
+
+Don't forget you can delete the resource group once you're finished learning.
