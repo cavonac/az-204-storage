@@ -21,8 +21,6 @@ static async Task ProcessAsync()
         Console.WriteLine("A connection string has not been defined in the system environment variables. " +
             "Add an environment variable named 'AZ204_STORAGE_CONNECTIONSTRING' with your storage " +
             "connection string as a value.");
-        Console.WriteLine("Press enter to exit the sample application.");
-        Console.ReadLine();
         return;
     }
 
