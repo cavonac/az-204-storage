@@ -53,6 +53,9 @@ static async Task ProcessAsync()
 
     Console.WriteLine("Uploading to Blob storage as blob:\n\t {0}\n", blobClient.Uri);
 
+    // Output container properties
+    await Utils.ReadContainerPropertiesAsync(containerClient);
+
     // Open the file and upload its data
     using (FileStream uploadFileStream = File.OpenRead(localFilePath))
     {
